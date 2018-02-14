@@ -6,3 +6,9 @@
 .space-10px-top {
   padding-top: 10px;
 }
+
+#comment-preview {
+  min-height: 150px;
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+}
