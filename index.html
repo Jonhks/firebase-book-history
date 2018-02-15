@@ -10,8 +10,9 @@
 </head>
 <body>
   <h1 class='text-center'>Libro de visitas</h1>
-  <article class='container'>
-    <h3>Comentarios pasados:</h3>
+  <h3 class="text-center">Comentarios pasados:</h3>
+
+  <article class='container' id="comments-container">
     <section class='comment'>Me gusta front end development</section>
     <section class='comment'>Gracias por el contenido, es super util.</section>
   </article>
@@ -45,9 +46,10 @@
     <h3 class='text-center space-10px-top'>Asi se veria tu comentario</h3>
     <div id='comment-preview'></div>
 
-    <div class="text-center space-10px-top"><button class='btn btn-default'>Enviar comentario</button></div>
+    <div class="text-center space-10px-top"><button id="send-btn" class='btn btn-primary'>Enviar comentario</button></div>
   </article>
 
   <script src="app/app.js"></script>
+  <script src="app/crud-comments.js"></script>
 </body>
 </html>
