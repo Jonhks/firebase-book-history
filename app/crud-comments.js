@@ -19,6 +19,10 @@ var commentsData = [
       backgroundColor: "white",
       color: "black"
     }
+  },
+  {
+    content: "hola",
+    style: {}
   }
 ];
 
